@@ -1,0 +1,27 @@
+body {
+    font-family: 'Marvel', sans-serif;
+    color: white;
+    background-color: gray ;
+}
+.header {
+    height: 150px;
+    background-image: url("../images/header.jpg");
+    background-repeat: round;
+}
+.card{
+    margin-top: 20px;
+}
+
+.card-body {
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: white;
+}
+
+.list-group-item {
+    color: white;
+}
