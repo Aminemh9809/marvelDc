@@ -29,7 +29,7 @@ for(let element of mychars) {
 stats.innerHTML += `
 <!-- Card 1 -->
 <div class="col-md-4">
-    <div class="card mb-4 ml-4">
+    <div class="card mb-4 ml-5">
         <div class="card-body text-center ">
             <img src="assets/images/${element.logo}" alt="Logo" class="mb-3" style="max-width: 120px;height:60px;"> <!-- Logo -->
             <h5 class="card-title">${element.title}</h5> <!-- Card title -->
@@ -43,6 +43,4 @@ stats.innerHTML += `
         </div>
     </div>
 </div>
-
-
 `;}
